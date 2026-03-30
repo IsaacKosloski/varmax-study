@@ -1,0 +1,21 @@
+name: varmax
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - scipy
+  - statsmodels
+  - scikit-learn
+  - openpyxl
+  - xlrd=2.0.1
+  - jupyterlab
+  - notebook
+  - ipykernel
+  - pip
+  - pip:
+      - streamlit
+      - plotly
